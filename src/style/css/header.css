@@ -24,11 +24,11 @@
 }
 .header-container .shadow .header-content h1,
 .header-container .shadow .header-content p {
-  color: #f1f1f1;
+  color: #0400ff;
 }
 .header-container .shadow .header-content a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   position: relative;
   transition: 0.3s ease-out;
   padding: 10px 0;
