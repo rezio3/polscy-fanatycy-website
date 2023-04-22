@@ -1,5 +1,58 @@
 .most-read-section-container {
-	width: 65%;
-	height: 300px;
-	background-color: #fff;
+	width: 60%;
+	// height: 300px;
+	// background-color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	.most-read-section-header {
+		font-size: 70px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #f1f1f1;
+		letter-spacing: 2px;
+	}
+	.boxes-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+
+		.read-box {
+			position: relative;
+			margin: 15px 0;
+			width: 280px;
+			height: 420px;
+			background-color: #777;
+			border-radius: 5px;
+			padding: 30px;
+
+			h3,
+			p,
+			a {
+				color: #f1f1f1;
+			}
+			h3 {
+				margin-top: 0;
+				font-size: 25px;
+			}
+			p {
+				font-size: 17px;
+				margin-bottom: 50px;
+			}
+			a {
+				position: absolute;
+				bottom: 50px;
+				transition: 0.3s ease-out;
+				text-decoration: none;
+
+				.arrow {
+					position: absolute;
+					padding-left: 10px;
+				}
+			}
+			a:hover {
+				color: rgb(223, 5, 5);
+			}
+		}
+	}
 }
