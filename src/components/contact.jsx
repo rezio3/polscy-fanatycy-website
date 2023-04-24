@@ -5,7 +5,10 @@ import ballImg from "../img/contact-ball.jpg";
 const Contact = () => {
 	return (
 		<div className="contact-container">
-			<img src={ballImg} width="400px" className="contact-img" />
+			<div className="contact-img-container">
+				<img src={ballImg} className="contact-img" />
+			</div>
+
 			<div className="contact-text-container">
 				<span>Stay informed with us</span>
 				<h2>Stay up to date, collaborate and help us grow!</h2>
