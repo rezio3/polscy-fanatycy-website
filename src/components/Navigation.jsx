@@ -4,7 +4,18 @@ import "../style/css/navigation.css";
 const Navigation = () => {
 	return (
 		<div className="nav-bar">
-			<i className="fa-brands fa-instagram"></i>
+			<a href="https://www.instagram.com/polscyfanatycy/">
+				<i className="fa-brands fa-instagram"></i>
+			</a>
+			<a href="https://www.facebook.com/PFpolscyfanatycy">
+				<i class="fa-brands fa-square-facebook"></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UCXBEVpYn4wxI3kMbGq3KPtg">
+				<i class="fa-brands fa-youtube"></i>
+			</a>
+			<a href="https://www.google.com">
+				<i class="fa-brands fa-tiktok"></i>
+			</a>
 		</div>
 	);
 };

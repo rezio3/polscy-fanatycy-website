@@ -5,8 +5,23 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	.fa-instagram {
+	.fa-brands {
 		font-size: 30px;
-		color: white;
+		color: #f1f1f1;
+		margin: 0 3px;
+		background-color: rgb(15, 15, 15);
+		padding: 10px 13px;
+		border-radius: 50%;
+		transition: 0.3s ease-out;
+		cursor: pointer;
+	}
+
+	.fa-youtube {
+		padding: 11.5px 10px;
+	}
+
+	.fa-brands:hover {
+		color: rgb(15, 15, 15);
+		background-color: #f1f1f1;
 	}
 }
