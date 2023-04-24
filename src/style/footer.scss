@@ -1,5 +1,35 @@
 .footer-container {
-	height: 150px;
+	height: 100px;
 	width: 100%;
 	border-top: 1px solid #f1f1f1;
+	display: flex;
+	justify-content: space-evenly;
+
+	.copyright {
+		color: #f1f1f1;
+		font-size: 14px;
+		margin: 25px 0 0 15px;
+	}
+	.icons-container {
+		margin: 15px 15px 0 0;
+		.fa-brands {
+			font-size: 30px;
+			color: #f1f1f1;
+			margin: 0 3px;
+			background-color: rgb(15, 15, 15);
+			padding: 10px 13px;
+			border-radius: 50%;
+			transition: 0.3s ease-out;
+			cursor: pointer;
+		}
+
+		.fa-youtube {
+			padding: 11.5px 10px;
+		}
+
+		.fa-brands:hover {
+			color: rgb(15, 15, 15);
+			background-color: #f1f1f1;
+		}
+	}
 }
