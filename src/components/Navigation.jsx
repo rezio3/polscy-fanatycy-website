@@ -3,8 +3,8 @@ import "../style/css/navigation.css";
 
 const Navigation = () => {
 	return (
-		<div className="nav-bar">
-			<a href="https://www.instagram.com/polscyfanatycy/">
+		<nav className="nav-bar">
+			<a href="https://www.instagram.com/polscyfanatycy_/">
 				<i className="fa-brands fa-instagram"></i>
 			</a>
 			<a href="https://www.facebook.com/PFpolscyfanatycy">
@@ -16,7 +16,7 @@ const Navigation = () => {
 			<a href="https://www.google.com">
 				<i class="fa-brands fa-tiktok"></i>
 			</a>
-		</div>
+		</nav>
 	);
 };
 
