@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<footer className="footer-container">
 			<span className="copyright">
-				Polscy Fanatycy 2023 &copy; All Right Reserved
+				Polscy Fanatycy 2023 &copy; All Rights Reserved
 			</span>
 			<div className="icons-container">
 				<a href="https://www.instagram.com/polscyfanatycy_/">
