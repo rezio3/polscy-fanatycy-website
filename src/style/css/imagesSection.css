@@ -57,7 +57,7 @@
 }
 .images-section-container .soccer-img-1 .shadow .text-container a:hover,
 .images-section-container .soccer-img-2 .shadow .text-container a:hover {
-  color: rgb(223, 5, 5);
+  color: #bebebe;
 }
 .images-section-container .soccer-img-1 {
   background-image: url(../../img/soccer-img1.jpg);

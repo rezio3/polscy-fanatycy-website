@@ -9,6 +9,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #f1f1f1;
+  margin: 100px 0px 80px;
   letter-spacing: 2px;
 }
 .most-read-section-container .boxes-container {
@@ -49,5 +50,5 @@
   padding-left: 10px;
 }
 .most-read-section-container .boxes-container .read-box a:hover {
-  color: rgb(223, 5, 5);
+  color: #bebebe;
 }
