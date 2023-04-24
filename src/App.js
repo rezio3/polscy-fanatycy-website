@@ -4,6 +4,7 @@ import Header from "./components/header";
 import ImagesSection from "./components/imagesSection";
 import MostReadSection from "./components/mostReadSection";
 import Blog from "./components/blog";
+import Contact from "./components/contact";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<ImagesSection />
 			<MostReadSection />
 			<Blog />
+			<Contact />
 		</div>
 	);
 }
