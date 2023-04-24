@@ -1,2 +1,45 @@
 .contact-container {
+	width: 60%;
+	// height: 500px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 200px;
+	margin-top: 100px;
+
+	.contact-img {
+		margin-right: 50px;
+		border-radius: 20px;
+	}
+	.contact-text-container {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		span,
+		h2 {
+			color: #f1f1f1;
+		}
+		h2 {
+			font-size: 35px;
+			margin: 0;
+		}
+		.contact-btn {
+			font-size: 15px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-top: 50px;
+			width: 150px;
+			height: 50px;
+			letter-spacing: 2px;
+			background-color: #424242;
+			color: #f1f1f1;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: 0.2s ease-out;
+		}
+
+		.contact-btn:hover {
+			background-color: #575757;
+		}
+	}
 }
