@@ -1,0 +1,33 @@
+.blog-container {
+	width: 50%;
+	// height: 400px;
+	padding: 30px 0;
+	margin-top: 200px;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+
+	h2 {
+		font-size: 40px;
+		margin: 20px 0;
+	}
+	h2,
+	p,
+	a {
+		color: #f1f1f1;
+	}
+	a {
+		display: block;
+		margin: 40px 0px 30px;
+		bottom: 50px;
+		transition: 0.3s ease-out;
+		text-decoration: none;
+
+		.arrow {
+			position: absolute;
+			padding-left: 10px;
+		}
+	}
+	a:hover {
+		color: #bebebe;
+	}
+}

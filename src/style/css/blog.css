@@ -1,0 +1,30 @@
+.blog-container {
+  width: 50%;
+  padding: 30px 0;
+  margin-top: 200px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+.blog-container h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.blog-container h2,
+.blog-container p,
+.blog-container a {
+  color: #f1f1f1;
+}
+.blog-container a {
+  display: block;
+  margin: 40px 0px 30px;
+  bottom: 50px;
+  transition: 0.3s ease-out;
+  text-decoration: none;
+}
+.blog-container a .arrow {
+  position: absolute;
+  padding-left: 10px;
+}
+.blog-container a:hover {
+  color: #bebebe;
+}
